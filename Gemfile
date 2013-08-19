@@ -6,6 +6,11 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
+
+
+gem 'rack-mini-profiler'
+
+
 #gem 'sqlite3'
 
 # Gems used only for assets and not required
