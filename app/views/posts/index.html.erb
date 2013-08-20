@@ -9,13 +9,12 @@
       <%= link_to 'Show', post %> |
       <%= link_to 'Edit', edit_post_path(post) %> |
       <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
+      <%=link_to 'View comments and replies', post%>
     </div>
     <div class="comment">
       <h2>Comments</h2>
-      <%=link_to post.comments.size, post%>
       <% post.comments.each do |c| %>
         <p><%= c.body %></p>
-        <h3># of Replies</h3>
 
       <% end %>
 
