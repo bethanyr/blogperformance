@@ -11,14 +11,6 @@
       <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
       <%=link_to 'View comments and replies', post%>
     </div>
-    <div class="comment">
-      <h2>Comments</h2>
-      <% post.comments.each do |c| %>
-        <p><%= c.body %></p>
-
-      <% end %>
-
-    </div>
   </section>
   <% end %>
 </section>

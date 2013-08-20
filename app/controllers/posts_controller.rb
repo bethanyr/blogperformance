@@ -3,7 +3,7 @@ class PostsController < ApplicationController
   # GET /posts.json
 
   def index
-    @posts = Post.includes(:comments)
+    @posts = Post.all
 
   end
 
