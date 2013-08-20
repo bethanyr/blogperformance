@@ -1,9 +1,13 @@
-# My New Blog!
+Blog Performance excercise for Code Fellows Gold Boot Camp
 
-I've got a lot to say, and now I have a place to say it!!!!!
+to setup test data run: rake load_blog:load_shit
 
-Read all my amazing posts!!!!! You can load them into the app with: `rake load_blog:load_shit`
+heroku site:(http://quiet-shore-8528.herokuapp.com/)
 
-Since I know you want to read them all, I designed my page to show EVERYTHING on the front page of the site!!!!!
 
-I know it is a little slow (but totes worth it!!!!)... _Do you know how I can make it faster?_
+Performance improvement made: used Eager loading for posts and comments on index page. Added link to view comments and replies for each post.
+
+![screenshot](blog_perf.png)
+
+#License
+[http://bethanyr.mit-license.org/](http://bethanyr.mit-license.org/)
