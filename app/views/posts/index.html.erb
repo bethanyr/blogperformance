@@ -12,6 +12,12 @@
     </div>
     <div class="comment">
       <h2>Comments</h2>
+      <%=link_to post.comments.size, post%>
+      <% post.comments.each do |c| %>
+        <p><%= c.body %></p>
+        <h3># of Replies</h3>
+
+      <% end %>
 
     </div>
   </section>
